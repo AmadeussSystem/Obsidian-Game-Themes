@@ -8,5 +8,9 @@ Minecraft:
 
 ### Be Sure to Edit The Path of src in Minecraft.css
 ```
-src: url('file:///home/YOUR_USERNAME/.local/share/fonts/Monocraft.ttc') format('truetype');
+src: url('file:///home/YOUR_USERNAME/.local/share/fonts/Monocraft/Monocraft.ttc') format('truetype');
+```
+then log out and log in or prefferably
+```shell
+fc-cache -fv
 ```

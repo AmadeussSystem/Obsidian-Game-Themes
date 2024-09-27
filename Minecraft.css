@@ -1,6 +1,12 @@
 /*------------------------------------------------------------------------------
-                      Minecraft Theme by CyanVoxel v1.1.1
+                      Minecraft Theme by CyanVoxel v1.1.1 (Modified for Monocraft)
 ------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: "Monocraft";
+  src: url("file:///home/To_be_Changed/.local/share/fonts/Monocraft1/Monocraft.ttc")
+    format("truetype");
+}
 
 :root {
   --minecraft-green-primary: #52a535;
@@ -10,9 +16,9 @@
 }
 
 .minecraft {
-  --font-text: "Minecraftia", "Minecraft";
+  --font-text: "Monocraft", monospace;
   --h1-weight: 0;
-  --h1-font: "Minercraftory", "Minecrafter";
+  --h1-font: "Monocraft", monospace;
   --h2-weight: 0;
   --h3-weight: 0;
   --h4-weight: 0;
@@ -83,6 +89,7 @@
   color: var(--minecraft-light-gray);
   --hr-color: var(--minecraft-green-highlight);
 }
+
 .embed-minecraft img {
   background-color: var(--minecraft-bg);
 }
@@ -114,6 +121,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+
 .minecraft :is(h2, .HyperMD-header.HyperMD-header-2) {
   text-align: center;
   color: var(--minecraft-green-primary);
